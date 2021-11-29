@@ -1,4 +1,4 @@
-# jingdong
+# vue3shop
 
 ## Project setup
 ```
