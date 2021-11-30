@@ -19,6 +19,14 @@ export const useCommonCartEffect = (shopId) => {
     return shopName
   })
 
+  const shopNameList = computed(() => {
+    const shopNameList = 0
+    if (shopName.value) {
+      shopNameList.value += 1
+    }
+    return shopNameList
+  })
+
   const calculations = computed(() => {
     const productList = cartList[shopId]?.productList
     const result = { total: 0, price: 0, allChecked: true }
@@ -37,5 +45,5 @@ export const useCommonCartEffect = (shopId) => {
     result.price = result.price.toFixed(2)
     return result
   })
-  return { cartList, shopName, productList, changeCartItemInfo, calculations }
+  return { cartList, shopName, productList, changeCartItemInfo, calculations, shopNameList }
 }

@@ -77,7 +77,7 @@ export default {
   background: rgb(248, 248, 248);
 }
 .title {
-  line-height: 0.44rem;
+  line-height: 0.5rem;
   background: $bgColor;
   font-size: 0.16rem;
   color: $content-fontcolor;

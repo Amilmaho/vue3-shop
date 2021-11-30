@@ -17,6 +17,11 @@ const routes = [
     component:()=>import('../views/orderList/OrderList.vue')
   },
   {
+    path: '/mycenter',
+    name: 'Mycenter',
+    component:()=>import('../views/mycenter/Mycenter.vue')
+  },
+  {
     path: '/cartList',
     name: 'CartList',
     component:()=>import('../views/cartList/CartList.vue')
