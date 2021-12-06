@@ -1,5 +1,7 @@
 # vue3shop
 
+# vue 3 + vuex + vue-router + scss + MongoDB 创建的app项目
+
 ## Project setup
 ```
 npm install
